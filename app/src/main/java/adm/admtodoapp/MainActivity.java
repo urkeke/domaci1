@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast toast = Toast.makeText(MainActivity.this,"First Toast Ever", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(MainActivity.this,"First Toast Ever, not anymore..", Toast.LENGTH_SHORT);
                 toast.show();
             }
         });
